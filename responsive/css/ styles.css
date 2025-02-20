@@ -87,7 +87,7 @@ img {
     .movie_post {
         width: 50%;
         border-radius: 10px;
-        border-shadow: 3px 3px 3px darkblue;
+        border-bottom: 3px 3px 3px darkblue;
     }
 }
 
