@@ -2,13 +2,14 @@ body{
     background-color: lightblue;
 }
 
-#container{
+#container {
     background-color: lightgrey;
     width: 65%;
     margin: 20px auto;
     border: 2px solid lightcoral;
     padding: 20px;
 }
+
 
 #banner {
     width: 100%;
@@ -28,22 +29,23 @@ body{
     margin: 20px;
     padding: 20px;
 }
+
 .heading_style {
     text-shadow: 2px 1px 2px darkblue
 }
 
-.movie_post{
+.movie_post {
     width: 60%;
 }
 
 
-img{
+img {
     display: block;
     margin: 0 auto;
     width: 1000px;
 }
 
-nav{
+nav {
     text-align: center;
     margin: 0 auto;
     background-color: lightslategrey;
@@ -55,11 +57,12 @@ nav ul {
 
 }
 
+
 nav li {
     display: inline-block;
 }
 
-nav li a{
+nav li a {
     display: block;
     color: white;
     font-size: 24px;
@@ -69,17 +72,19 @@ nav li a{
     width: 1250x;
     height: 40px;
     line-height: 40px;
+    text-align: center;
 }
 
 
-nav a:hover{
-   background-color: white;
-   color: black;
+nav a:hover {
+    background-color: white;
+    color: black;
 }
 
-main {
+main{
     display: flex;
 }
+
 h1, h2, h3 {
     text-align: center;
 }
