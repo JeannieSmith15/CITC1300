@@ -1,9 +1,9 @@
-body{
+body {
     background-color: lightblue;
 }
 
 #container {
-    background-color: lightgrey;
+    background-color: lightgray;
     width: 65%;
     margin: 20px auto;
     border: 2px solid lightcoral;
@@ -11,8 +11,9 @@ body{
 }
 
 
-#banner {
+#banner{
     width: 100%;
+
 }
 
 #col1 {
@@ -23,7 +24,7 @@ body{
 }
 
 
-#col2 {
+#col1 {
     width: 50%;
     border: 2px solid black;
     margin: 20px;
@@ -31,35 +32,36 @@ body{
 }
 
 .heading_style {
-    text-shadow: 2px 1px 2px darkblue
+    text-shadow: 2px 1px 2px darkblue;
+
 }
 
 .movie_post {
     width: 60%;
 }
 
-
 img {
     display: block;
     margin: 0 auto;
-    width: 1000px;
+    width: 100px;
+
 }
 
-nav {
+nav{
     text-align: center;
-    margin: 0 auto;
-    background-color: lightslategrey;
+    margin: 0% auto;
+    background-color: lightslategray;
 }
 
-nav ul {
+nav ul{
     list-style-type: none;
     padding: 0;
-
 }
 
 
-nav li {
+nav li{
     display: inline-block;
+
 }
 
 nav li a {
@@ -69,22 +71,22 @@ nav li a {
     font-weight: bold;
     text-decoration: none;
     margin: 0 20px;
-    width: 125px;
+    width: 125x;
     height: 40px;
     line-height: 40px;
-    text-align: center;
+
 }
 
-
-nav a:hover {
+nav a :hover {
     background-color: white;
     color: black;
 }
 
-main{
+main {
     display: flex;
 }
 
-h1, h2, h3 {
+
+h1,h2, h3 {
     text-align: center;
 }

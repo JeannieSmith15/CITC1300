@@ -1,0 +1,9 @@
+body{
+    background-color: aqua;
+}
+#container{
+    background-color: blanchedalmond;
+    width: 65%;
+    margin: 20px auto;
+    border: 2px salmon;
+}
