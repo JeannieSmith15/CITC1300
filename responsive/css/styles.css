@@ -90,3 +90,116 @@ main {
 h1,h2, h3 {
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Global Styles */
+
+
+body{
+    background-color: lightseagreen;
+}
+
+#container{
+    background-color: lightskyblue;
+    width: 65%;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 20px;
+}
+/* Mobile Styles */
+
+@media(min-width:320px) {
+    nav{
+        background-color: lightcoral;
+    }
+
+}
+
+#banner{
+    width: 100%;
+}
+#col1{
+    width: 50%;
+    border: 2px solid black;
+}
+
+#col2{
+    width: 50%;
+    border: 2px solid black;
+}
+
+.heading_style{
+    text-shadow: 2px 1px 2px rgb(7, 7, 188);
+
+
+}
+
+.movie_post{
+    width: 50%;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+nav{
+    text-align: center;
+    margin: 20px 0;
+    background-color: lightslategray;
+}
+nav a{
+    font-size: 24px;
+    color: white;
+    margin: 0 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 20px;
+    width: 125px;
+    height: 25px;
+    line-height: 40px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 20px;
+    width: 125px;
+    height: 25px;
+}
+
+main{
+    display: flex;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
